@@ -84,6 +84,11 @@ body {
     height: 40px;
     border-radius: 50%;
 }
+.postImg1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 
 .feed {
     flex: 0.5;
@@ -95,9 +100,7 @@ body {
 .feed_header {
     position: sticky;
     top: 0;
-    background-color: green;
-    border: 1px solid black;
-    padding: 15px 20px;
+    padding: 0 20px;
 }
 
 .feed_header h3 {
@@ -172,4 +175,64 @@ body {
     padding: 10px;
     text-align: center;
     color: blue;
+}
+
+.postImg2 {
+    width: 550px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.posts {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.post_content {
+    padding: 0 20px;
+}
+
+.postFooterIcons {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.widget {
+    flex: 0.3;
+}
+
+.widget_input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widget_input input {
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.actualWidget {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.embed {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
 }
